@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Rubik Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Splide JS -->
+  <link rel="stylesheet" href="./assets/vendor/splide/dist/css/splide.min.css">
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Labo</title>
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark mb-lg-5">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo.png" width="33" alt="Logo">
+          <span>Laboratorium</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Daftar
+              </a>
+              <ul class="dropdown-menu dropdown-menu-white">
+                <li><a class="dropdown-item" href="registerlingkungan.html">Pemeriksaan Lingkungan</a></li>
+                <li><a class="dropdown-item" href="registerklinis.html">Klinis / Medis</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sample</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimoni">Testimoni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="selengkapnya.html">Tentang Kami</a>
+            </li>
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Login
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="box">
+            <h3 class="value">Login</h3>
+          </div>
+          <div class="mb-3">
+            <label for="exampleUsername" class="form-label">Username</label>
+            <input type="Username" class="form-control" id="exampleUsername" aria-describedby="UsernameHelp">
+            <div id="UsernameHelp" class="form-text">We'll never share your Id with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Ingat Saya </label>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-thirty" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Home -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mt-lg-5">
+          <div class="text-center">
+            <h1 class="mb-0">UPTD Laboratorium Kesehatan,</h1>
+            <h1>Dinas Kesehatan Kabupaten Jepara.</h1>
+            <p>Melayani Pengecekan Laboratorium Lingkungan dan Klinis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="about-us" class="p-5">
+    <div class="container">
+      <div class="row align-items-center mb-5">
+        <div class="col-12 col-lg-6 mb-5">
+          <img src="./assets/images/about-us-1.svg" class="img-fluid shadow-solid" width="450" alt="About Us">
+        </div>
+        <div class="col-12 col-lg-6 mb-3">
+          <h3 class="page-title">Tentang Kami</h3>
+          <h2 class="title">Kami Menyediakan Layanan, Berpengalaman Terbaik.</h2>
+          <p class="lead">Ujikan sempel anda pada Laboratorium</p>
+          <p class="lead"> agar lebih aman jika digunakan</p>
+          <div class="stats my-4">
+            <div class="box">
+              <h3 class="value">165+</h3>
+              <p class="title">Sample Yang Diuji</p>
+            </div>
+            <div class="box">
+              <h3 class="value">165+</h3>
+              <p class="title">Sample Yang Diuji</p>
+            </div>
+            <div class="box">
+              <h3 class="value">165+</h3>
+              <p class="title">Sample Yang Diuji</p>
+            </div>
+          </div>
+          <button class="btn btn-primary rounded">
+            <span>Selengkapnya</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M20 12L4 12" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M14 18L19.9375 12.0625V12.0625C19.972 12.028 19.972 11.972 19.9375 11.9375V11.9375L14 6"
+                stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="row align-items-center mb-5">
+        <div class="col-12 col-lg-6 mb-3">
+          <h3 class="page-title">Tentang Kami</h3>
+          <h2 class="title">Kami Menyediakan Layanan, Berpengalaman Terbaik. </h2>
+          <p class="lead">Ujikan sempel anda pada Laboratorium</p>
+          <p class="lead"> agar lebih aman jika digunakan</p>
+          <div class="stats my-4">
+            <div class="box">
+              <h3 class="value">165+</h3>
+              <p class="title">Sample Yang Diuji</p>
+            </div>
+            <div class="box">
+              <h3 class="value">165+</h3>
+              <p class="title">Sample Yang Diuji</p>
+            </div>
+            <div class="box">
+              <h3 class="value">165+</h3>
+              <p class="title">Sample Yang Diuji</p>
+            </div>
+          </div>
+          <button class="btn btn-primary rounded">
+            <span>Selengkapnya</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M20 12L4 12" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M14 18L19.9375 12.0625V12.0625C19.972 12.028 19.972 11.972 19.9375 11.9375V11.9375L14 6"
+                stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+        <div class="col-12 col-lg-6 mb-5">
+          <img src="./assets/images/about-us-2.svg" class="img-fluid shadow-solid" width="450" alt="About Us">
+        </div>
+      </div>
+      <div class="row align-items-center mb-5">
+        <div class="col-12 col-lg-6 mb-5">
+          <img src="./assets/images/about-us-3.svg" class="img-fluid shadow-solid" width="450" alt="About Us">
+        </div>
+        <div class="col-12 col-lg-6 mb-3">
+          <h3 class="page-title">Tentang Kami</h3>
+          <h2 class="title">Kami Menyediakan Layanan, Berpengalaman Terbaik. </h2>
+          <p class="lead">Ujikan sempel anda pada Laboratorium</p>
+          <p class="lead"> agar lebih aman jika digunakan</p>
+          <div class="stats my-4">
+            <div class="box">
+              <h3 class="value">165+</h3>
+              <p class="title">Sample Yang Diuji</p>
+            </div>
+            <div class="box">
+              <h3 class="value">165+</h3>
+              <p class="title">Sample Yang Diuji</p>
+            </div>
+            <div class="box">
+              <h3 class="value">165+</h3>
+              <p class="title">Sample Yang Diuji</p>
+            </div>
+          </div>
+          <button class="btn btn-primary rounded">
+            <span>Selengkapnya</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M20 12L4 12" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M14 18L19.9375 12.0625V12.0625C19.972 12.028 19.972 11.972 19.9375 11.9375V11.9375L14 6"
+                stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="trusted-by">
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12 mb-5">
+          <div class="text-center">
+            <h2 class="page-title">PT dan Instansi Yang pernah Melakukan Tes Sempel.</h2>
+            <p class="page-lead">Ujikan sempel anda pada Laboratorium agar lebih aman jika digunakan</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 mb-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="text-center mb-4">
+                <img src="./assets/images/img14.png" class="img-fluid" alt="Company Logo">
+              </div>
+              <h3 class="title">Phoenix</h3>
+              <p class="lead">Jl. Imam Bonjol, Ngabul, Jepara, Jawa Tengah</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 mb-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="text-center mb-4">
+                <img src="./assets/images/img15.png" class="img-fluid" alt="Company Logo">
+              </div>
+              <h3 class="title">PT Semoga Maju</h3>
+              <p class="lead">Jl. Imam Bonjol, Ngabul, Jepara, Jawa Tengah</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 mb-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="text-center mb-4">
+                <img src="./assets/images/company-logo.svg" class="img-fluid" alt="Company Logo">
+              </div>
+              <h3 class="title">PT Semoga Maju</h3>
+              <p class="lead">Jl. Imam Bonjol, Ngabul, Jepara, Jawa Tengah</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 mb-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="text-center mb-4">
+                <img src="./assets/images/img16.png" class="img-fluid" alt="Company Logo">
+              </div>
+              <h3 class="title">PT Semoga Maju</h3>
+              <p class="lead">Jl. Imam Bonjol, Ngabul, Jepara, Jawa Tengah</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-3 mb-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="text-center mb-4">
+                <img src="./assets/images/img17.png" class="img-fluid" alt="Company Logo">
+              </div>
+              <h3 class="title">Cultural Diversity</h3>
+              <p class="lead">Jl. Imam Bonjol, Ngabul, Jepara, Jawa Tengah</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 mb-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="text-center mb-4">
+                <img src="./assets/images/img11.png" class="img-fluid" alt="Company Logo">
+              </div>
+              <h3 class="title">PT Semoga Maju</h3>
+              <p class="lead">Jl. Imam Bonjol, Ngabul, Jepara, Jawa Tengah</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3">
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="text-center mb-4">
+                <img src="./assets/images/img12.png" class="img-fluid" alt="Company Logo">
+              </div>
+              <h3 class="title">Bussines Company</h3>
+              <p class="lead">Jl. Imam Bonjol, Ngabul, Jepara, Jawa Tengah</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 mb-3">
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="text-center mb-4">
+                <img src="./assets/images/img13.png" class="img-fluid" alt="Company Logo">
+              </div>
+              <h3 class="title">Company Tagline Here</h3>
+              <p class="lead">Jl. Imam Bonjol, Ngabul, Jepara, Jawa Tengah</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="testimoni" class="my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h3 class="page-title text-primary">Testimoni</h3>
+          <h4 class="header">Apa Kata Mereka Tentang Kami ?</h4>
+        </div>
+        <div class="col-12 mt-5">
+          <section class="splide" aria-label="Placeholder Example">
+            <div class="splide__arrows"></div>
+            <div class="splide__track">
+              <div class="splide__list">
+                <div class="splide__slide card">
+                  <div class="card-body">
+                    <img src="./assets/images/testimoni.svg" alt="quote" class="quote">
+                    <p>Ujikan sempel anda pada Laboratorium agar lebih aman jika digunakan</p>
+                    <div class="user mt-5">
+                      <img src="./assets/images/img17.png" alt="Mina Myoui">
+                      <div class="info">
+                        <h3>Mina Myoui</h3>
+                        <p>PT semoga Jaya</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="splide__slide card">
+                  <div class="card-body">
+                    <img src="./assets/images/testimoni.svg" alt="quote" class="quote">
+                    <p>Ujikan sempel anda pada Laboratorium agar lebih aman jika digunakan</p>
+                    <div class="user mt-5">
+                      <img src="./assets/images/user-testimoni.svg" alt="Mina Myoui">
+                      <div class="info">
+                        <h3>Mina Myoui</h3>
+                        <p>PT semoga Jaya</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="splide__slide card">
+                  <div class="card-body">
+                    <img src="./assets/images/testimoni.svg" alt="quote" class="quote">
+                    <p>Ujikan sempel anda pada Laboratorium agar lebih aman jika digunakan</p>
+                    <div class="user mt-5">
+                      <img src="./assets/images/user-testimoni.svg" alt="Mina Myoui">
+                      <div class="info">
+                        <h3>Mina Myoui</h3>
+                        <p>PT semoga Jaya</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="splide__slide card">
+                  <div class="card-body">
+                    <img src="./assets/images/testimoni.svg" alt="quote" class="quote">
+                    <p>Ujikan sempel anda pada Laboratorium agar lebih aman jika digunakan</p>
+                    <div class="user mt-5">
+                      <img src="./assets/images/user-testimoni.svg" alt="Mina Myoui">
+                      <div class="info">
+                        <h3>Mina Myoui</h3>
+                        <p>PT semoga Jaya</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row align-items-center py-5">
+        <div class="col-12 col-lg-6">
+          <h5>Dapatkan selalu update terbaru dari Laboratorium Pengecekan untuk mendapatkan informasi terbaik</h5>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="d-flex justify-content-end">
+            <img src="./assets/images/footer.svg" class="img-fluid" alt="footer">
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="separator"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row pb-4">
+        <div class="col-12 col-lg-4">
+          <div class="d-flex gap-2 align-items-center mb-1">
+            <img src="./assets/images/logo.png" width="44" alt="App Logo">
+            <h3 class="h4 mb-0">UPTD Laboratorium Kesehatan</h3>
+          </div>
+          <p class="lead">Ujikan sempel anda pada Laboratorium agar lebih aman jika digunakan</p>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="text-center">
+            <div class="navbar-brand">Halaman</div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="navbar-brand">Hubungi Kami</div>
+          <p class="lead">
+            Anda memiliki pertanyaan dan ingin
+            bertanya kepada kami? Hubungi kami
+            melalui platform berikut
+          </p>
+          <div class="d-flex gap-3 align-items-center mb-3">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="32" height="32" viewBox="0 0 32 32">
+                <path
+                  d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z" />
+              </svg>
+            </a>
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="32" height="32" viewBox="0 0 32 32">
+                <path
+                  d="M11.919 24.94c-2.548 0-4.921-.747-6.919-2.032a9.049 9.049 0 0 0 6.681-1.867 4.512 4.512 0 0 1-4.215-3.137c.276.054.559.082.848.082.412 0 .812-.056 1.193-.156a4.519 4.519 0 0 1-3.622-4.425v-.059a4.478 4.478 0 0 0 2.042.564 4.507 4.507 0 0 1-2.008-3.758c0-.824.225-1.602.612-2.268a12.811 12.811 0 0 0 9.303 4.715 4.517 4.517 0 0 1 7.692-4.115 9.107 9.107 0 0 0 2.866-1.094 4.542 4.542 0 0 1-1.983 2.498 9.08 9.08 0 0 0 2.592-.71 9.283 9.283 0 0 1-2.252 2.337c.008.193.014.388.014.583-.001 5.962-4.542 12.843-12.844 12.842" />
+              </svg>
+            </a>
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="32" height="32" viewBox="0 0 32 32">
+                <path
+                  d="M20.445 5h-8.891A6.559 6.559 0 0 0 5 11.554v8.891A6.559 6.559 0 0 0 11.554 27h8.891a6.56 6.56 0 0 0 6.554-6.555v-8.891A6.557 6.557 0 0 0 20.445 5zm4.342 15.445a4.343 4.343 0 0 1-4.342 4.342h-8.891a4.341 4.341 0 0 1-4.341-4.342v-8.891a4.34 4.34 0 0 1 4.341-4.341h8.891a4.342 4.342 0 0 1 4.341 4.341l.001 8.891z" />
+                <path
+                  d="M16 10.312c-3.138 0-5.688 2.551-5.688 5.688s2.551 5.688 5.688 5.688 5.688-2.551 5.688-5.688-2.55-5.688-5.688-5.688zm0 9.163a3.475 3.475 0 1 1-.001-6.95 3.475 3.475 0 0 1 .001 6.95zM21.7 8.991a1.363 1.363 0 1 1-1.364 1.364c0-.752.51-1.364 1.364-1.364z" />
+              </svg>
+            </a>
+          </div>
+          <p class="lead mb-0">
+            Atau datang langsung ke Alamat berikut
+          </p>
+          <p class="lead text-white">
+            Jl. K.H. Fauzan, Pengkol II, Pengkol, Kec. Jepara, Kabupaten Jepara, Jawa Tengah 59415
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div id="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="py-3">
+            <p class="mb-0">&copy; Copyright <span class="fw-bold">Laboratorium Pengecekan</span>. </p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="py-3">
+            <div class="navigation">
+              <a href="#">Privacy Policy</a>
+              <a href="#">Disclaimer</a>
+              <a href="#">Ketentuan dan Peraturan</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap -->
+  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Splide  -->
+  <script src="./assets/vendor/splide/dist/js/splide.min.js"></script>
+  <!-- Custom Script -->
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

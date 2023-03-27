@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Rubik Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Splide JS -->
+  <link rel="stylesheet" href="./assets/vendor/splide/dist/css/splide.min.css">
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Labo</title>
+</head>
+
+<body>
+  <section id="register">
+    <section id="header">
+      <nav class="navbar justify-content-center">
+        <h3 class="mb-0">Form Pendaftaraan</h3>
+      </nav>
+    </section>
+    <section id="form-inputs">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="mb-3 mt-5">
+              <label class="col-form-label">Nama</label>
+              <input type="text" name="" class="form-control" placeholder="Nama">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="mb-3 mt-5">
+              <label class="col-form-label">Hari / Tanggal</label>
+              <input type="date" name="" class="form-control" placeholder="Hari / Tanggal">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="mb-2 mt-4">
+              <label class="col-form-label">No. Lab</label>
+              <input type="text" name="" class="form-control" placeholder="No. Lab">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="mb-2 mt-4">
+              <label class="col-form-label">Dokter Pengirim</label>
+              <input type="text" name="" class="form-control" placeholder="Dokter Pengirim">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="mb-2 mt-4">
+              <label class="col-form-label">Tanggal lahir</label>
+              <input type="date" name="" class="form-control" placeholder="Tanggal Lahir">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="mb-2 mt-4">
+              <label class="col-form-label">Alamat</label>
+              <input type="text" name="" class="form-control" placeholder="Alamat">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="mb-2 mt-4">
+              <label class="col-form-label">Alamat</label>
+              <input type="text" name="" class="form-control" placeholder="Alamat">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="half-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 my-4">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="p-3">
+                  <h3 class="text-primary title h4 mb-0">HEMATOLOGI</h3>
+                </div>
+                <div class="separator"></div>
+                <div class="p-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="a">
+                    <label class="form-check-label" for="a">
+                      H2TL (Hemoglobin, Leukosit,                  
+                       Hematokrit, MCV, MCH, 
+                       MCHC)
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="b">
+                    <label class="form-check-label" for="b">
+                      Darah Rutin (H2TL. LED, Hitung Jenis 
+                     Leukosit (Diffcount))
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="c">
+                    <label class="form-check-label" for="c">
+                      Golongan Darah
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="d">
+                    <label class="form-check-label" for="d">
+                      LED
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="e">
+                    <label class="form-check-label" for="e">
+                      Hitung Jenis Leukosit (Diffcount)
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- copy untuk membuat card baru -->
+          <div class="col-12 col-lg-6 my-4">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="p-3">
+                  <h3 class="text-primary title h4 mb-0">KIMIA KLINIK</h3>
+                </div>
+                <div class="separator"></div>
+                <div class="p-3">
+                  <h3 class="text-primary-second">DIABETES</h3>
+                  <div class="form-check">
+                    <!-- jgn sampai ada id yang sama -->
+                    <input class="form-check-input" type="checkbox" value="" id="glukosapuasa">
+                    <!-- for disesuaikan dengan id input terkait -->
+                    <label class="form-check-label" for="glukosapuasa">
+                      Glukosa Puasa
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="glukosa2jampp">
+                    <label class="form-check-label" for="glukosa2jampp">
+                      Glukosa 2 jam PP
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="glukosawaktu">
+                    <label class="form-check-label" for="glukosawaktu">
+                      Glukosa Waktu
+                    </label>
+                  </div>
+                  <h3 class="text-primary-second">FAAL GINJAL</h3>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="ureum">
+                    <label class="form-check-label" for="ureum">
+                      Ureum
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Creatinin
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="asamurat">
+                    <label class="form-check-label" for="asamurat">
+                      Asam Urat
+                    </label>
+                  </div>
+                  <h3 class="text-primary-second">PROFIL LIPID</h3>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="cholestroltotal">
+                    <label class="form-check-label" for="cholestroltotal">
+                      Cholesterol Total
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="trigliserid">
+                    <label class="form-check-label" for="trigliserid">
+                      Trigliserid
+                    </label>
+                  </div>
+                  <h3 class="text-primary-second">FAAL HATI</h3>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="sgbt">
+                    <label class="form-check-label" for="sgbt">
+                      SGBT
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="sgot">
+                    <label class="form-check-label" for="sgot">
+                      SGOT
+                    </label>
+                  </div>
+                  <h3 class="text-primary-second">IMUNO SEROLOGI</h3>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="widal">
+                    <label class="form-check-label" for="widal">
+                      Widal
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="golongandarah">
+                    <label class="form-check-label" for="golongandarah">
+                      Golongan Darah
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-4">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="p-3">
+                <h3 class="text-primary title h4 mb-0">URINALISA</h3>
+                </div>
+                <div class="separator"></div>
+                <div class="p-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="urinrutin">
+                    <label class="form-check-label" for="urinrutin">
+                      Urin Rutin
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="urinlengkap">
+                    <label class="form-check-label" for="urinlengkap">
+                      Urin Lengkap (PH, Kejernihan, Protein, 
+                     Reduksi, Warna, Sedimen)
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="proteinurin">
+                    <label class="form-check-label" for="proteinurin">
+                      Protein Urin
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="reduksiurin">
+                    <label class="form-check-label" for="reduksiurin">
+                      Reduksi Urin
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="bilirubinurin">
+                    <label class="form-check-label" for="bilirubinurin">
+                      Bilirubin Urin
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+              <section id="form-inputs">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-lg-6">
+                      <div class="mb-3 mt-5">
+                        <label class="col-form-label">Petugas Laboratorium</label>
+                        <input type="text" name="" class="form-control" placeholder="Petugas Laboratorium">
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="mb-3 mt-5">
+                        <label class="col-form-label">Tgl / Jam Periksa</label>
+                        <input type="text" name="" class="form-control" placeholder="Tgl / Jam Periksa">
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="mb-3 mt-5">
+                        <label class="col-form-label">Nama</label>
+                        <input type="text" name="" class="form-control" placeholder="Nama">
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="mb-3 mt-5">
+                        <label class="col-form-label">Tanda Tangan</label>
+                        <input class="form-control" type="file" id="formFile">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="form-submit">
+      <nav class="navbar justify-content-end py-3">
+        <div class="container justify-content-end gap-4">
+          <a href="./index.html" class="btn btn-white">Cancel</a>
+          <button class="btn btn-primary" type="button" onclick="successMessage()">Submit</button>
+        </div>
+      </nav>
+    </section>
+  </section>
+
+
+  <!-- Bootstrap -->
+  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Splide  -->
+  <script src="./assets/vendor/splide/dist/js/splide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- Custom Script -->
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

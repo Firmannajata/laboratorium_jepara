@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Rubik Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Splide JS -->
+  <link rel="stylesheet" href="./assets/vendor/splide/dist/css/splide.min.css">
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Labo</title>
+</head>
+
+<body>
+  <section id="register">
+    <section id="header">
+      <nav class="navbar justify-content-center">
+        <h3 class="mb-0">Form Pendaftaraan</h3>
+      </nav>
+    </section>
+    <section id="form-inputs">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="mb-3 mt-5">
+              <label class="col-form-label">Hari / Tanggal</label>
+              <input type="text" name="" class="form-control" placeholder="Hari / Tanggal">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="mb-3 mt-5">
+              <label class="col-form-label">Nama Pelangan</label>
+              <input type="text" name="" class="form-control" placeholder="Nama Pelanggan">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="mb-3 mt-5">
+              <label class="col-form-label">Alamat Pelanggan</label>
+              <input type="text" name="" class="form-control" placeholder="Alamat Pelanggan">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="mb-3 mt-5">
+              <label class="col-form-label">Jenis / Kode Sampel</label>
+              <input type="text" name="" class="form-control" placeholder="Jenis / Kode Sampel">
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <div class="mb-3 mt-5">
+              <label class="col-form-label">Tanggal / Jam Sampling</label>
+              <input type="date" name="" class="form-control" placeholder="Tanggal / Jam Sampling">
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <div class="mb-3 mt-5">
+              <label class="col-form-label">Titik / Lokasi Sampling</label>
+              <input type="text" name="" class="form-control" placeholder="Titik / Lokasi Sampling">
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <div class="mb-3 mt-5">
+              <label class="col-form-label">Petugas Sampling</label>
+              <input type="text" name="" class="form-control" placeholder="Petugas Sampling">
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <div class="mb-3 mt-5">
+              <label class="col-form-label">No Telephone Pelanggan</label>
+              <input type="text" name="" class="form-control" placeholder="No Telephone Pelanggan">
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <div class="mb-3 mt-5">
+              <label class="col-form-label">Permintaan Pemeriksaan</label>
+              <input type="text" name="" class="form-control" placeholder="Permintaan Pemeriksaan">
+            </div>
+        </div>
+    </section>
+    <section id="half-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 my-4">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="p-3">
+                  <h3 class="text-primary title h4 mb-0">BLANKO PEMERIKSAAN LABORATORIUM</h3>
+                </div>
+                <div class="separator"></div>
+                <div class="p-3">
+                  <div class="form-check">
+                    <!-- jgn sampai ada id yang sama -->
+                    <input class="form-check-input" type="checkbox" value="" id="membranfilter">
+                                        <!-- for disesuaikan dengan id input terkait -->
+                    <label class="form-check-label" for="membranfilter">
+                        Membran Filter
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="mpncoliform">
+                    <label class="form-check-label" for="mpncoliform">
+                      MPN Coliform
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="hitungkuman">
+                    <label class="form-check-label" for="hitungkuman">
+                      Hitung Kuman
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="e.coli">
+                    <label class="form-check-label" for="e.coli">
+                      E. Coli
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- copy untuk membuat card baru -->
+          <div class="col-12 col-lg-6 my-4">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="p-3">
+                  <h3 class="text-primary title h4 mb-0">BAHAN TAMBAHAN PANGAN</h3>
+                </div>
+                <div class="separator"></div>
+                <div class="p-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="borax">
+                    <label class="form-check-label" for="borax">
+                      Borax
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="formalin">
+                    <label class="form-check-label" for="formalin">
+                      Formalin
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="RhodaminB">
+                    <label class="form-check-label" for="RhodaminB">
+                      Rhodamin B
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="MethanilYellow">
+                    <label class="form-check-label" for="MethanilYellow">
+                      Methanil Yellow
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Siklamat">
+                    <label class="form-check-label" for="Siklamat">
+                      Siklamat
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Sakarin">
+                    <label class="form-check-label" for="Sakarin">
+                      Sakarin
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-4">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="p-3">
+                  <h3 class="text-primary title h4 mb-0">KIMIA AIR BERSIH / MINUM</h3>
+                </div>
+                <div class="separator"></div>
+                <div class="p-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="lengkap">
+                    <label class="form-check-label" for="lengkap">
+                      Lengkap
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-4">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="p-3">
+                  <h3 class="text-primary title h4 mb-0">FISIKA</h3>
+                </div>
+                <div class="separator"></div>
+                <div class="p-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Bau">
+                    <label class="form-check-label" for="Bau">
+                      Bau
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Warna">
+                    <label class="form-check-label" for="Warna">
+                      Warna
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="TDS">
+                    <label class="form-check-label" for="TDS">
+                      Total Zat Padat Terlarut (TDS)
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="kekeruhan">
+                    <label class="form-check-label" for="kekeruhan">
+                      Kekeruhan
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="rasa">
+                    <label class="form-check-label" for="rasa">
+                      Rasa
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="suhu">
+                    <label class="form-check-label" for="suhu">
+                      Suhu
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-4">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="p-3">
+                  <h3 class="text-primary title h4 mb-0">KIMIAWI</h3>
+                </div>
+                <div class="separator"></div>
+                <div class="p-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="basi">
+                    <label class="form-check-label" for="basi">
+                      Besi
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="kesadahan">
+                    <label class="form-check-label" for="kesadahan">
+                     Kesadahan
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="fluroida">
+                    <label class="form-check-label" for="fluroida">
+                     Fluroida
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="kromiumval">
+                    <label class="form-check-label" for="kromiumval">
+                      Kromium Val. 6
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="kromiumtotal">
+                    <label class="form-check-label" for="kromiumtotal">
+                      Kromium Total
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="mangan">
+                    <label class="form-check-label" for="mangan">
+                      Mangan
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="nitrat">
+                    <label class="form-check-label" for="nitrat">
+                     Nitrat
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="nitrit">
+                    <label class="form-check-label" for="nitrit">
+                     Nitrit
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="ph">
+                    <label class="form-check-label" for="ph">
+                      pH
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="seng">
+                    <label class="form-check-label" for="seng">
+                      Seng
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="sianida">
+                    <label class="form-check-label" for="sianida">
+                      Sianida
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="sukfat">
+                    <label class="form-check-label" for="sukfat">
+                      Sukfat
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="klorin">
+                    <label class="form-check-label" for="klorin">
+                      Klorin
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="alumunium">
+                    <label class="form-check-label" for="alumunium">
+                      Alumunium 
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="tembaga">
+                    <label class="form-check-label" for="tembaga">
+                      Tembaga
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="b">
+                    <label class="form-check-label" for="b">
+                      Klorida
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="amonia">
+                    <label class="form-check-label" for="amonia">
+                      Amonia
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-4">
+            <div class="card">
+
+              <div class="card-body p-0">
+                <div class="p-3">
+                  <h3 class="text-primary title h4 mb-0">PEMERIKSAAN LINGKUNGAN</h3>
+                </div>
+                <div class="separator"></div>
+                <div class="p-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="intensitascahaya">
+                    <label class="form-check-label" for="intensitascahaya">
+                      Intensitas Cahaya
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="kebisingan">
+                    <label class="form-check-label" for="kebisingan">
+                      Kebisingan
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="usapalatmakan">
+                    <label class="form-check-label" for="usapalatmakan">
+                      Usap Alat Makan
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="usaplantai">
+                    <label class="form-check-label" for="usaplantai">
+                     Usap Lantai
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="usapdinding">
+                    <label class="form-check-label" for="usapdinding">
+                     Usap Dinding
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="kumanudara">
+                    <label class="form-check-label" for="kumanudara">
+                      Kuman Udara
+                    </label>
+                  </div>
+        </div>
+      </div>
+    </section>
+    <section id="form-submit">
+      <nav class="navbar justify-content-end py-3">
+        <div class="container justify-content-end gap-4">
+          <a href="./index.html" class="btn btn-white">Cancel</a>
+          <button class="btn btn-primary" type="button" onclick="successMessage()">Submit</button>
+        </div>
+      </nav>
+    </section>
+  </section>
+
+
+  <!-- Bootstrap -->
+  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Splide  -->
+  <script src="./assets/vendor/splide/dist/js/splide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- Custom Script -->
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
